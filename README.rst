@@ -5,6 +5,7 @@ The Ion reader has a .NET API for easy manipulation of the reader.
 It requires the CAENRFIDLibrary.dll
 
 The decision to use IronPython instead of C# was out of speed. 
-This library is not full featured API, but can get the reader up and running very quickly. 
-Integrating different database connectors is quite easy for saving parsed tag reads.
+This library is not a full featured API, but can get the reader up and running very quickly. 
+Integrating different database connectors is quite easy for saving parsed tag reads. An example connector is included.
 
+Use of this code is easily implemented in a WinForms UI. 
